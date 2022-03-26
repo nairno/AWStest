@@ -30,7 +30,7 @@ const options = {
   };
   
   
-  const client = new tmi.client(options);
+  //const client = new tmi.client(options);
   
   /*
   
