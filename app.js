@@ -32,6 +32,8 @@ const options = {
   
   const client = new tmi.client(options);
   
+  /*
+  
   client.connect();
   
   
@@ -47,7 +49,7 @@ const options = {
   
   
   //client connects
-  client.on('connected', (address,port) => {
+  client.on('connected', (address,PORT) => {
     client.action('nairno','hello, chatfightbot is now connected');
     console.log()
     console.log(typeChat)
@@ -217,11 +219,11 @@ const options = {
     if (message === '!disconnect' && `${user['display-name']}`== 'nairno'){
       client.disconnect();
   }
-  /*
+  
   if (message === '!disconnect'){
     client.disconnect();
   }
-  */
+  
   });
   
   
@@ -229,3 +231,4 @@ const options = {
     const sides = 6;
     return Math.floor(Math.random() * sides) + 1;
   }
+  */
