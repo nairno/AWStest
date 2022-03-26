@@ -13,6 +13,7 @@ app.listen(PORT, () => {
     console.log("letsss goooo");
 });
 
+/*
 const options = {
     options: {
       debug: true,
@@ -28,7 +29,7 @@ const options = {
     channels:['nairno','chatfightbot',''],
   
   };
-  
+  */
   
   //const client = new tmi.client(options);
   
