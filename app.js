@@ -13,7 +13,9 @@ app.listen(PORT, () => {
     console.log("letsss goooo");
 });
 
-/*
+const client = new tmi.client(options);
+
+
 const options = {
     options: {
       debug: true,
@@ -29,13 +31,13 @@ const options = {
     channels:['nairno','chatfightbot',''],
   
   };
-  */
   
-  //const client = new tmi.client(options);
+  client.connect();
+
   
   /*
   
-  client.connect();
+  
   
   
   var canQuizPop = false
