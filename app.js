@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const { PORT = 3000 } = process.env
-//const tmi = require('tmi.js');
+const tmi = require('tmi.js');
 
 console.log('PORT', PORT)
 
